@@ -14,6 +14,6 @@ emitter.on('segundoEvento', (nombre) => {
 	console.log('Solo se muestra su nombre: %s',nombre);
 });
 
-emitter.emit('segundoEvento','Mark');
+//emitter.emit('segundoEvento','Mark');
 console.log(emitter.eventNames());
 console.log(emitter.getMaxListeners());
